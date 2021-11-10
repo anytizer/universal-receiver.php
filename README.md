@@ -28,3 +28,7 @@ A fully formed SQL DDL to create a table
 
 ##### json:
 The data into json format
+
+This is a work in progress, and the cocept/idea is made public hoping that it helps you to push data to the websites.
+The server php infrastructure source code will be pushed when it is tested.
+Client side demo application can be written in many languages mostly like, python, c#, php.
