@@ -12,3 +12,19 @@ It synchronizes:
 * Data
 
 Assuming, desktop application is a binary .exe or other gui based platforms as well as local web infrastructure, univeral receiver is a way to __clone__ the same data for the web.
+
+### Server side script:
+upload/receive.php
+
+#### Accetable types:
+
+    $types = ["database", "schema", "json"];
+
+##### database:
+Complete copy of an .sqlite database
+
+##### schema:
+A fully formed SQL DDL to create a table
+
+##### json:
+The data into json format
