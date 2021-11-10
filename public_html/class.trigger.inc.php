@@ -9,7 +9,7 @@ class trigger
 	
 	public function json($localpath="")
 	{
-		file_put_contents("trigger-jsosn.log", $localpath."\r\n", FILE_APPEND);
+		file_put_contents("trigger-json.log", $localpath."\r\n", FILE_APPEND);
 	}
 	
 	public function _strike($type="unknown", $localpath="")
