@@ -1,6 +1,5 @@
 <?php
-include_once "class.trigger.inc.php";
-#include_once "guid.php";
+require_once "class.trigger.inc.php";
 
 function guid()
 {
