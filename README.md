@@ -1,7 +1,7 @@
 # univeral-receiver.php
 Server side web based Database Synchronizer for Desktop Applications.
 
-How does it work:
+##How does it work?
 Desktop application pushes its local schema and json to this recepient.
 This software then recreates web database.
 
