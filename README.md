@@ -1,6 +1,12 @@
 # univeral-receiver.php
 Server side web based Database Synchronizer for Desktop Applications.
 
+## ToDo:
+1. The script must serve to authorised connections only.
+2. The uploaded files must stay outside of web access.
+
+There is otherwise, a chance of sqlite query injection issue.
+
 ## How does it work?
 Desktop application pushes its local schema and json to this recepient.
 This software then recreates web database.
