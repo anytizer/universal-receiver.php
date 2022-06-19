@@ -1,4 +1,4 @@
-# univeral-receiver.php
+# universal-receiver.php
 Server side web based Database Synchronizer for Desktop Applications.
 
 ## ToDo:
